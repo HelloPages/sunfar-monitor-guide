@@ -1,0 +1,16 @@
+# 公開商品圖來源
+
+- oled_g5_27／S27FG502SC：V12核對商品照。[對應面板或產品](https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g5-g50sf-27-inch-180hz-oled-qhd-ls27fg502scxzw/)
+- oled_g8_32／S32HG802SC：V12核對商品照。[對應面板或產品](https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g8-g80sh-32-inch-4k-uhd-240hz-ls32hg802scxzw/)
+- s27fg502ec／S27FG502EC：[原始商品照](https://images.samsung.com/is/image/samsung/p6pim/tw/ls27fg502ecxzw/gallery/tw-odyssey-g5-g50f-569215-ls27fg502ecxzw-551126561?%241164_776_PNG%24=)。[對應面板或產品](https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g50f-27-inch-180hz-qhd-ls27fg502ecxzw/)
+- s32fg502ec／S32FG502EC：[原始商品照](https://images.samsung.com/is/image/samsung/p6pim/tw/ls32fg502ecxzw/gallery/tw-odyssey-g5-g50f-ls32fg502ecxzw-549669708?%241164_776_PNG%24=)。[對應面板或產品](https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g50f-32-inch-180hz-qhd-ls32fg502ecxzw/)
+- s27fg532ec／S27FG532EC：[原始商品照](https://images.samsung.com/is/image/samsung/p6pim/tw/ls27fg532ecxzw/gallery/tw-odyssey-g5-27g53f-ls27fg532ecxzw-549156038?%241164_776_PNG%24=)。[對應面板或產品](https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g53f-27-inch-200hz-qhd-ls27fg532ecxzw/)
+- s32hg532ec／S32HG532EC：[原始商品照](https://images.samsung.com/is/image/samsung/p6pim/tw/ls32hg532ecxzw/gallery/tw-odyssey-g5-g53h-ls32hg532ecxzw-554584205?%241164_776_PNG%24=)。[對應面板或產品](https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g53h-32-inch-200hz-qhd-ls32hg532ecxzw/)
+- s27hg552ec／S27HG552EC：[原始商品照](https://images.samsung.com/is/image/samsung/p6pim/tw/ls27hg552ecxzw/gallery/tw-odyssey-g5-g55h-ls27hg552ecxzw-554327947?%241164_776_PNG%24=)。[對應面板或產品](https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g55h-27-inch-180hz-qhd-ls27hg552ecxzw/)
+- curve_g5_32／S32HG552EC：V12核對商品照。[對應面板或產品](https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g55h-32-inch-180hz-qhd-ls32hg552ecxzw/)
+- followme_regular_32／S32FM703UC：V12對應移動架3D組合示意。[對應面板或產品](https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-32-inch-smart-tv-apps-4k-uhd-ls32fm703ucxzw/)
+- followme_pro_32／S32FM703UC：V12對應移動架3D組合示意。[對應面板或產品](https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-32-inch-smart-tv-apps-4k-uhd-ls32fm703ucxzw/)
+- followme_pro_43／S43FM703UC：V12對應移動架3D組合示意。[對應面板或產品](https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-43-inch-smart-tv-apps-4k-uhd-ls43fm703ucxzw/)
+- m7_desktop_black／S32FM702UC：V12核對商品照。[對應面板或產品](https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-32-inch-smart-tv-apps-4k-uhd-ls32fm702ucxzw/)
+- m7_desktop_white／S32FM703UC：V12核對商品照。[對應面板或產品](https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-32-inch-smart-tv-apps-4k-uhd-ls32fm703ucxzw/)
+- s3_desktop_27／S27D300GAC：[原始商品照](https://images.samsung.com/is/image/samsung/p6pim/tw/ls27d300gacxzw/gallery/tw-essential-s3-s30gd-ls27d300gacxzw-544007162?%241164_776_PNG%24=)。[對應面板或產品](https://www.samsung.com/tw/monitors/full-hd-1080p/essential-monitor-s3-s30gd-27-inch-fhd-ips-100hz-ls27d300gacxzw/)

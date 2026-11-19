@@ -1,0 +1,244 @@
+[
+  {
+    "item_id": "oled_g5_27",
+    "model": "S27FG502SC",
+    "group": "oled",
+    "inches": 27,
+    "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g5-g50sf-27-inch-180hz-oled-qhd-ls27fg502scxzw/",
+    "rows": [
+      "27 吋 QD-OLED\n平面 · 16:9",
+      "2K QHD\n2560 × 1440",
+      "DP 180 Hz\nHDMI 144 Hz",
+      "0.03 ms（GtG）",
+      "HDR10",
+      "200 nit · DCI 99%\n（CIE 1976）",
+      "FreeSync\nG-SYNC 相容",
+      "DP 1.2 ×1 · HDMI 2.0 ×1\n耳機孔",
+      "俯仰\nVESA 100 × 100",
+      "Glare Free 真霧面"
+    ]
+  },
+  {
+    "item_id": "oled_g8_32",
+    "model": "S32HG802SC",
+    "group": "oled",
+    "inches": 32,
+    "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g8-g80sh-32-inch-4k-uhd-240hz-ls32hg802scxzw/",
+    "rows": [
+      "32 吋 QD-OLED\n平面 · 16:9",
+      "4K UHD\n3840 × 2160",
+      "DP／HDMI\n最高 240 Hz",
+      "0.03 ms（GtG）",
+      "DisplayHDR True Black 500\nHDR10+ Gaming",
+      "300 nit · DCI 99%",
+      "FreeSync Premium Pro\nG-SYNC 相容",
+      "DP 2.1 UHBR20 ×1\nHDMI 2.1 ×2\nUSB-C ×1（最高 98 W）\nUSB-A 3.2 Gen1 ×2 · 耳機孔",
+      "升降／俯仰／左右／直轉\nVESA 100 × 100",
+      "Glare Free 真霧面"
+    ]
+  },
+  {
+    "item_id": "s27fg502ec",
+    "model": "S27FG502EC",
+    "group": "ips",
+    "inches": 27,
+    "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g50f-27-inch-180hz-qhd-ls27fg502ecxzw/",
+    "rows": [
+      "27 吋 Fast IPS\n平面 · 16:9",
+      "2K QHD\n2560 × 1440",
+      "DP 180 Hz\nHDMI 144 Hz",
+      "1 ms GtG（Extreme）",
+      "HDR10",
+      "300 nit · sRGB 99%",
+      "FreeSync\nG-Sync 相容",
+      "DP 1.2 ×1 · HDMI 2.0 ×1\n耳機孔",
+      "升降／俯仰／左右／直轉\nVESA 100 × 100",
+      "自動來源切換+"
+    ]
+  },
+  {
+    "item_id": "s32fg502ec",
+    "model": "S32FG502EC",
+    "group": "ips",
+    "inches": 32,
+    "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g50f-32-inch-180hz-qhd-ls32fg502ecxzw/",
+    "rows": [
+      "32 吋 Fast IPS\n平面 · 16:9",
+      "2K QHD\n2560 × 1440",
+      "DP 180 Hz\nHDMI 144 Hz",
+      "1 ms GtG（Extreme）",
+      "HDR10",
+      "300 nit · sRGB 99%",
+      "FreeSync\nG-Sync 相容",
+      "DP 1.2 ×1 · HDMI 2.0 ×1\n耳機孔",
+      "升降／俯仰／左右／直轉\nVESA 100 × 100",
+      "自動來源切換+"
+    ]
+  },
+  {
+    "item_id": "s27fg532ec",
+    "model": "S27FG532EC",
+    "group": "ips",
+    "inches": 27,
+    "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g53f-27-inch-200hz-qhd-ls27fg532ecxzw/",
+    "rows": [
+      "27 吋 IPS\n平面 · 16:9",
+      "2K QHD\n2560 × 1440",
+      "DP 200 Hz\nHDMI 144 Hz",
+      "1 ms（MPRT）",
+      "HDR10",
+      "300 nit · NTSC 72% 以上",
+      "FreeSync Premium（DP）\nFreeSync（HDMI）",
+      "DP 1.4 ×1 · HDMI 2.0 ×2\n耳機孔 · 更新用 USB ×1",
+      "俯仰\nVESA 75 × 75",
+      "黑平衡 · 虛擬準心"
+    ]
+  },
+  {
+    "item_id": "s32hg532ec",
+    "model": "S32HG532EC",
+    "group": "ips",
+    "inches": 32,
+    "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g53h-32-inch-200hz-qhd-ls32hg532ecxzw/",
+    "rows": [
+      "32 吋 Fast IPS\n平面 · 16:9",
+      "2K QHD\n2560 × 1440",
+      "DP 200 Hz\nHDMI 144 Hz",
+      "1 ms GtG（Extreme）",
+      "HDR10",
+      "300 nit · NTSC 72%",
+      "FreeSync Premium（DP）\nFreeSync（HDMI）",
+      "DP 1.4 ×1 · HDMI 2.0 ×2\n耳機孔 · 更新用 USB ×1",
+      "俯仰\nVESA 75 × 75",
+      "黑平衡 · 虛擬準心"
+    ]
+  },
+  {
+    "item_id": "s27hg552ec",
+    "model": "S27HG552EC",
+    "group": "curve",
+    "inches": 27,
+    "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g55h-27-inch-180hz-qhd-ls27hg552ecxzw/",
+    "rows": [
+      "27 吋 VA\n1000R · 16:9",
+      "2K QHD\n2560 × 1440",
+      "DP 180 Hz\nHDMI 144 Hz",
+      "1 ms GtG（Extreme）",
+      "HDR10",
+      "300 nit · sRGB 99%",
+      "FreeSync",
+      "DP 1.2 ×1 · HDMI 2.0 ×1\n耳機孔 · 更新用 USB ×1",
+      "俯仰\nVESA 75 × 75",
+      "黑平衡 · 虛擬準心"
+    ]
+  },
+  {
+    "item_id": "curve_g5_32",
+    "model": "S32HG552EC",
+    "group": "curve",
+    "inches": 32,
+    "url": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g55h-32-inch-180hz-qhd-ls32hg552ecxzw/",
+    "rows": [
+      "32 吋 VA\n1000R 曲面 · 16:9",
+      "2K QHD\n2560 × 1440",
+      "DP 180 Hz\nHDMI 144 Hz",
+      "1 ms GtG（Extreme）",
+      "HDR10",
+      "300 nit · sRGB 99%",
+      "FreeSync",
+      "DP 1.2 ×1 · HDMI 2.0 ×1\n耳機孔 · 更新用 USB ×1",
+      "俯仰\nVESA 75 × 75",
+      "黑平衡 · 虛擬準心"
+    ]
+  },
+  {
+    "item_id": "followme_regular_32",
+    "model": "S32FM703UC",
+    "group": "followme",
+    "inches": 32,
+    "url": "https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-32-inch-smart-tv-apps-4k-uhd-ls32fm703ucxzw/",
+    "rows": [
+      "32 吋 VA · 平面 16:9",
+      "4K UHD 3840 × 2160\n60 Hz · 4 ms（GtG）",
+      "HDR10 · 300 nit · NTSC 72%",
+      "HDMI 2.0 ×2 · USB-A 2.0 ×3\nUSB-C ×1（65 W）· Wi-Fi 5 · BT 5.2",
+      "Tizen · SmartThings\n10 W 喇叭 · 需接電使用",
+      "附托盤 · 安裝時調整高度\n橫直旋轉：左右各 180°\n底座直徑 400 mm · VESA 100 × 100"
+    ]
+  },
+  {
+    "item_id": "followme_pro_32",
+    "model": "S32FM703UC",
+    "group": "followme",
+    "inches": 32,
+    "url": "https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-32-inch-smart-tv-apps-4k-uhd-ls32fm703ucxzw/",
+    "rows": [
+      "32 吋 VA · 平面 16:9",
+      "4K UHD 3840 × 2160\n60 Hz · 4 ms（GtG）",
+      "HDR10 · 300 nit · NTSC 72%",
+      "HDMI 2.0 ×2 · USB-A 2.0 ×3\nUSB-C ×1（65 W）· Wi-Fi 5 · BT 5.2",
+      "Tizen · SmartThings\n10 W 喇叭 · 需接電使用",
+      "氣壓升降 188 mm · 橫直轉 90°\n俯仰 ±15° · 底座直徑 450 mm\nVESA 100 × 100"
+    ]
+  },
+  {
+    "item_id": "followme_pro_43",
+    "model": "S43FM703UC",
+    "group": "followme",
+    "inches": 43,
+    "url": "https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-43-inch-smart-tv-apps-4k-uhd-ls43fm703ucxzw/",
+    "rows": [
+      "43 吋 VA · 平面 16:9",
+      "4K UHD 3840 × 2160\n60 Hz · 4 ms（GtG）",
+      "HDR10 · 300 nit · NTSC 72%",
+      "HDMI 2.0 ×2 · USB-A 2.0 ×3\nUSB-C ×1（65 W）· Wi-Fi 5 · BT 5.2",
+      "Tizen · SmartThings\n20 W 喇叭 · 需接電使用",
+      "氣壓升降 188 mm · 橫直轉 90°\n俯仰 ±15° · 底座直徑 500 mm\nVESA 200 × 200"
+    ]
+  },
+  {
+    "item_id": "m7_desktop_black",
+    "model": "S32FM702UC",
+    "group": "smart",
+    "inches": 32,
+    "url": "https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-32-inch-smart-tv-apps-4k-uhd-ls32fm702ucxzw/",
+    "rows": [
+      "32 吋 VA · 平面 16:9",
+      "4K UHD 3840 × 2160\n60 Hz · 4 ms（GtG）",
+      "HDR10 · 300 nit · NTSC 72%",
+      "HDMI 2.0 ×2 · USB-A 2.0 ×3\nUSB-C ×1（65 W）· Wi-Fi 5 · BT 5.2",
+      "Tizen · SmartThings\n10 W 喇叭",
+      "桌上底座 · 俯仰 -2°～22°\nVESA 100 × 100"
+    ]
+  },
+  {
+    "item_id": "m7_desktop_white",
+    "model": "S32FM703UC",
+    "group": "smart",
+    "inches": 32,
+    "url": "https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-32-inch-smart-tv-apps-4k-uhd-ls32fm703ucxzw/",
+    "rows": [
+      "32 吋 VA · 平面 16:9",
+      "4K UHD 3840 × 2160\n60 Hz · 4 ms（GtG）",
+      "HDR10 · 300 nit · NTSC 72%",
+      "HDMI 2.0 ×2 · USB-A 2.0 ×3\nUSB-C ×1（65 W）· Wi-Fi 5 · BT 5.2",
+      "Tizen · SmartThings\n10 W 喇叭",
+      "桌上底座 · 俯仰 -2°～22°\nVESA 100 × 100"
+    ]
+  },
+  {
+    "item_id": "s3_desktop_27",
+    "model": "S27D300GAC",
+    "group": "daily",
+    "inches": 27,
+    "url": "https://www.samsung.com/tw/monitors/full-hd-1080p/essential-monitor-s3-s30gd-27-inch-fhd-ips-100hz-ls27d300gacxzw/",
+    "rows": [
+      "27 吋 IPS · 平面 16:9",
+      "FHD 1920 × 1080\n最高 100 Hz · 5 ms（GtG）",
+      "250 nit · NTSC 72%\n（CIE 1931）",
+      "HDMI 1.4 ×1 · D-Sub ×1",
+      "低藍光 · 零閃屏\n遊戲模式",
+      "俯仰 -2°～21°\n水平校正 ±3° · VESA 100 × 100"
+    ]
+  }
+]
