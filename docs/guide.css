@@ -157,7 +157,7 @@ footer p { color:var(--muted); font-size:13px; margin-top:4px; }
   .section-heading p,.practice-layout>div:first-child p { font-size:14px; margin-top:5px; }
   .filters button { padding:5px 8px; font-size:12px; }
   .tiles { grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; }
-  .tile a { grid-template-rows:54px auto auto; min-height:99px; padding:4px 3px 5px; }
+  .tile a { grid-template-rows:54px minmax(30px,auto) auto; min-height:99px; height:100%; padding:4px 3px 5px; }
   .tile img { height:53px; }
   .tile-title { font-size:12px; }
   .tile-model { font-size:10px; }
