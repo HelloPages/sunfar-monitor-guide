@@ -96,6 +96,7 @@ let score = 0;
 function showQuestion(focus = false) {
   choices.replaceChildren();
   feedback.textContent = "";
+  feedback.classList.remove("correct", "incorrect");
   next.hidden = true;
   review.hidden = true;
   scoreLabel.textContent = `答對${score}題`;
@@ -127,7 +128,9 @@ function answer(index, question) {
   buttons.forEach((button) => { button.disabled = true; });
   buttons[question.answer].classList.add("right");
   if (!correct) buttons[index].classList.add("wrong");
-  feedback.textContent = `${correct ? "答對了。" : "可先示範" + question.choices[question.answer].name + "。"}${question.reason}`;
+  feedback.classList.toggle("correct", correct);
+  feedback.classList.toggle("incorrect", !correct);
+  feedback.textContent = `${correct ? "答對了。" : "答錯了。正確答案是「" + question.choices[question.answer].name + "」。"}解釋：${question.reason}`;
   review.href = "#" + question.choices[question.answer].id;
   review.hidden = false;
   next.textContent = current === questions.length - 1 ? "看練習結果" : "下一題";

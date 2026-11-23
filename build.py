@@ -95,14 +95,14 @@ html = f'''<!doctype html>
 <meta name="description" content="順發各門市共用的三星螢幕教育講義，包含14個銷售配置、規格速查、現場示範與情境練習。">
 <meta name="robots" content="noindex,follow"><meta name="theme-color" content="#142f33">
 <link rel="icon" href="data:,"><link rel="stylesheet" href="guide.css"><script src="guide.js" defer></script>
-<title>順發通路｜三星螢幕門市講義</title></head>
+<title>順發三星螢幕門市銷售講義</title></head>
 <body id="top">
 <a href="#catalog" class="skip">跳至機款總覽</a>
-<header class="site-header"><div class="wrap topbar"><a class="brand" href="#top">順發通路<span>門市講義</span></a>
+<header class="site-header"><div class="wrap topbar">
 <nav aria-label="講義導覽"><a href="#catalog">機款</a><a href="#needs">選機</a><a href="#practice">練習</a></nav></div></header>
 <main>
 <section class="hero"><div class="wrap hero-grid"><div class="hero-copy">
-<h1>三星螢幕<br>門市銷售講義</h1><p>從顧客需求出發，快速找到適合的機款、推薦話術與現場示範。</p>
+<h1>順發三星螢幕<br>門市銷售講義</h1><p>從顧客需求出發，快速找到適合的機款、推薦話術與現場示範。</p>
 <div class="hero-actions"><a class="primary" href="#catalog">查詢14個銷售配置 ↓</a><a class="secondary" href="#needs">依需求選機</a></div></div>
 <a class="hero-product" href="#oled_g8_32" aria-label="查看OLED G8 32吋講義">{image(by_id["oled_g8_32"],hero=True)}
 <span><strong>Odyssey OLED G8</strong><small>32吋・4K UHD・240Hz</small></span></a></div></section>
@@ -128,7 +128,7 @@ html = f'''<!doctype html>
 <div class="quiz-actions"><a id="quiz-review" hidden>看對應機款 ↗</a><button type="button" id="quiz-next" class="primary" hidden>下一題</button>
 <button type="button" id="quiz-reset">重新作答</button></div></div></div></section>
 <section class="wrap section" id="terms"><div class="section-heading"><h2>門市規格小抄</h2></div><dl class="terms">{terms}</dl></section>
-</main><footer><div class="wrap footer-inner"><div><strong>順發通路｜三星螢幕門市講義</strong>
+</main><footer><div class="wrap footer-inner"><div><strong>順發三星螢幕門市銷售講義</strong>
 <p>適用各門市教育訓練。產品及規格來源為台灣三星，FollowMe為對應組合示意。</p>
 <p>教材更新 {e(content['release'].replace('-', '/'))}</p></div><a href="#top" class="text-link">回到頂端 ↑</a></div></footer>
 <p id="announcement" class="sr-only" role="status"></p><script id="guide-data" type="application/json">{quiz_json}</script>

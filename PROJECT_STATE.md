@@ -1,10 +1,19 @@
-# 順發通路三星螢幕講義｜目前狀態
+# 順發三星螢幕門市銷售講義｜目前狀態
 
-更新：2026-11-19（台北）。
+更新：2026-11-23（台北）。
 
-- 正式入口為 https://hellopages.github.io/sunfar-monitor-guide/ 。獨立部署於HelloPages/sunfar-monitor-guide，GitHub Pages讀取權威主線 `main:/docs`。
+- 正式入口為 https://www.funfun.idv.tw/demo/202611-SF/ ，依 Sam 本次指定部署至 `/public_html/demo/202611-SF`。版本來源繼續沿用 `HelloPages/sunfar-monitor-guide` 的權威主線 `main:/docs`；既有 GitHub Pages 設定保留。
 - 資料範圍是順發V12墊板14個銷售配置、12個完整螢幕型號。S32FM703UC分為FollowMe、FollowMe Pro及白色M7單機。規格顯示「2K QHD」與「4K UHD」。
 - 機款速查、六組需求、14份門市話術及示範、10題練習及規格小抄。公開價格只用三星上市新聞稿中對應系列及尺寸的建議售價，未列公告價的條目提示洽詢門市。
-- `specs.json` 為核對後的公開規格，`content.json` 為講義內容，`ASSETS.md` 為圖片來源。編修後執行 `python build.py`，正式頁面測試以 `python qa_browser.py --url https://hellopages.github.io/sunfar-monitor-guide/` 執行。
-- QA證據留在本機 `qa/local` 和 `qa/live`。390×844、1280×720、1440×900採Chrome驗收，涵蓋切換、搜尋、跳轉、展開規格、複製、作答及14張圖。手機測試是Chrome視窗模擬。
+- `specs.json` 為核對後的公開規格，`content.json` 為講義內容，`ASSETS.md` 為圖片來源。編修後執行 `py -3.11 build.py`，正式頁面測試以 `py -3.11 qa_browser.py --url https://www.funfun.idv.tw/demo/202611-SF/` 執行。
+- 11/19前版QA證據留在本機 `qa/local` 和 `qa/live`。390×844、1280×720、1440×900採Chrome驗收，涵蓋切換、搜尋、跳轉、展開規格、複製、作答及14張圖。手機測試是Chrome視窗模擬。
 - 高雄店講義與V12印刷原稿屬各自的專案，本案獨立維護。
+
+## 2026/11/23 修改與驗收
+
+- 主標題、分頁標題及頁尾改為「順發三星螢幕門市銷售講義」，移除頂部「順發通路」標籤，保留導覽。
+- 答對選項與解釋使用藍字；答錯選項與解釋使用紅字，並明列正確答案；重作與換題清除上一題顏色。
+- 本機三尺寸 Chrome 已完成完整原有流程，另操作正確、錯誤、重作並檢查字色與完整解釋。手機390×844、筆電1280×720及桌面1440×900的首頁與正誤狀態截圖已實際檢視。
+- 指定 Funfun 新目錄的18個公開檔案已完成上傳及FTP SHA-256讀回核對，素材先傳、首頁最後傳。
+- 正式網站三尺寸互動與HTTPS逐檔核對：全部通過。18個公開檔案與本機SHA-256一致，14張產品圖、分類、搜尋、跳轉、規格展開、複製、10題練習及重作均正常，沒有頁面或資源錯誤。
+- 本輪證據：`qa/20261123/local/`、`qa/20261123/live/`、`qa/20261123/funfun-deploy.json`。瀏覽器測試使用本機既有 `py -3.11` 環境；手機為Chrome視窗模擬，未宣稱實機測試。
