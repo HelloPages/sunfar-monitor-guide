@@ -345,17 +345,100 @@
     ]
   ],
   "prices": {
-    "oled_g8_32": [
-      27900,
-      "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E5%86%8D%E5%89%B5%E9%A1%AF%E7%A4%BA%E6%96%B0%E6%A8%99%E6%BA%96odyssey%E8%88%87viewfinity%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-%E4%BB%A55k%EF%BC%8F6k%E8%B6%85%E9%AB%98%E8%A7%A3"
-    ],
-    "m7_desktop_black": [
-      10990,
-      "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E6%99%BA%E6%85%A7%E8%81%AF%E7%B6%B2%E8%9E%A2%E5%B9%95m9%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-ai%E7%A7%91%E6%8A%80%E6%89%93%E9%80%A0%E5%85%A8%E6%96%B9%E4%BD%8D%E9%AB%98%E6%95%88"
-    ],
-    "m7_desktop_white": [
-      10990,
-      "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E6%99%BA%E6%85%A7%E8%81%AF%E7%B6%B2%E8%9E%A2%E5%B9%95m9%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-ai%E7%A7%91%E6%8A%80%E6%89%93%E9%80%A0%E5%85%A8%E6%96%B9%E4%BD%8D%E9%AB%98%E6%95%88"
-    ]
-  }
+    "oled_g5_27": {
+      "kind": "original",
+      "amount": 11900,
+      "source": "https://www.samsung.com/tw/monitors/gaming/odyssey-oled-g5-g50sf-27-inch-180hz-oled-qhd-ls27fg502scxzw/",
+      "note": ""
+    },
+    "oled_g8_32": {
+      "kind": "msrp",
+      "amount": 27900,
+      "source": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E5%86%8D%E5%89%B5%E9%A1%AF%E7%A4%BA%E6%96%B0%E6%A8%99%E6%BA%96odyssey%E8%88%87viewfinity%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-%E4%BB%A55k%EF%BC%8F6k%E8%B6%85%E9%AB%98%E8%A7%A3",
+      "note": ""
+    },
+    "s27fg502ec": {
+      "kind": "original",
+      "amount": 5990,
+      "source": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g50f-27-inch-180hz-qhd-ls27fg502ecxzw/",
+      "note": ""
+    },
+    "s32fg502ec": {
+      "kind": "standard",
+      "amount": 7490,
+      "source": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g50f-32-inch-180hz-qhd-ls32fg502ecxzw/",
+      "note": ""
+    },
+    "s27fg532ec": {
+      "kind": "original",
+      "amount": 5490,
+      "source": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g53f-27-inch-200hz-qhd-ls27fg532ecxzw/",
+      "note": ""
+    },
+    "s32hg532ec": {
+      "kind": "standard",
+      "amount": 6990,
+      "source": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g53h-32-inch-200hz-qhd-ls32hg532ecxzw/",
+      "note": ""
+    },
+    "s27hg552ec": {
+      "kind": "standard",
+      "amount": 5490,
+      "source": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g55h-27-inch-180hz-qhd-ls27hg552ecxzw/",
+      "note": ""
+    },
+    "curve_g5_32": {
+      "kind": "standard",
+      "amount": 6990,
+      "source": "https://www.samsung.com/tw/monitors/gaming/odyssey-g5-g55h-32-inch-180hz-qhd-ls32hg552ecxzw/",
+      "note": ""
+    },
+    "followme_regular_32": {
+      "kind": "bundle_standard",
+      "amount": 13990,
+      "source": "https://www.samsung.com/tw/monitors/smart/smart-monitor-m7-32-inch-smart-tv-apps-4k-uhd-ls32fm703ucxzw/",
+      "note": "含托盤移動立架；配件以實際銷售組合為準。"
+    },
+    "followme_pro_32": {
+      "kind": "bundle_unconfirmed",
+      "amount": null,
+      "source": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E6%99%BA%E6%85%A7%E8%81%AF%E7%B6%B2%E8%9E%A2%E5%B9%95m9%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-ai%E7%A7%91%E6%8A%80%E6%89%93%E9%80%A0%E5%85%A8%E6%96%B9%E4%BD%8D%E9%AB%98%E6%95%88",
+      "note": "官網未查得 Pro 氣壓架套組建議售價。",
+      "reference": {
+        "amount": 10990,
+        "label": "螢幕單機建議售價",
+        "note": "不含 Pro 氣壓移動架"
+      }
+    },
+    "followme_pro_43": {
+      "kind": "bundle_unconfirmed",
+      "amount": null,
+      "source": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E6%99%BA%E6%85%A7%E8%81%AF%E7%B6%B2%E8%9E%A2%E5%B9%95m9%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-ai%E7%A7%91%E6%8A%80%E6%89%93%E9%80%A0%E5%85%A8%E6%96%B9%E4%BD%8D%E9%AB%98%E6%95%88",
+      "note": "官網未查得 Pro 氣壓架套組建議售價。",
+      "reference": {
+        "amount": 13990,
+        "label": "螢幕單機建議售價",
+        "note": "不含 Pro 氣壓移動架"
+      }
+    },
+    "m7_desktop_black": {
+      "kind": "msrp",
+      "amount": 10990,
+      "source": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E6%99%BA%E6%85%A7%E8%81%AF%E7%B6%B2%E8%9E%A2%E5%B9%95m9%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-ai%E7%A7%91%E6%8A%80%E6%89%93%E9%80%A0%E5%85%A8%E6%96%B9%E4%BD%8D%E9%AB%98%E6%95%88",
+      "note": "黑色桌上單機。"
+    },
+    "m7_desktop_white": {
+      "kind": "msrp",
+      "amount": 10990,
+      "source": "https://news.samsung.com/tw/%E4%B8%89%E6%98%9F%E6%99%BA%E6%85%A7%E8%81%AF%E7%B6%B2%E8%9E%A2%E5%B9%95m9%E5%85%A8%E6%96%B0%E7%99%BB%E5%A0%B4-ai%E7%A7%91%E6%8A%80%E6%89%93%E9%80%A0%E5%85%A8%E6%96%B9%E4%BD%8D%E9%AB%98%E6%95%88",
+      "note": "白色桌上單機；官網產品頁另展示移動架組合。"
+    },
+    "s3_desktop_27": {
+      "kind": "unconfirmed",
+      "amount": null,
+      "source": "https://www.samsung.com/tw/monitors/full-hd-1080p/essential-monitor-s3-s30gd-27-inch-fhd-ips-100hz-ls27d300gacxzw/",
+      "note": "官網未查得建議售價或原價。"
+    }
+  },
+  "price_checked_at": "2026-11-23"
 }

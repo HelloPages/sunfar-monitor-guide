@@ -56,12 +56,15 @@ h2 { font-size:clamp(25px,3vw,35px); letter-spacing:-.035em; line-height:1.22; }
 .filters button[aria-pressed=true] { background:var(--green); border-color:var(--green); color:white; }
 .results-note { margin:11px 0 9px; color:var(--muted); font-size:13px; font-weight:720; }
 .tiles { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(7,minmax(0,1fr)); gap:9px; }
-.tile a { display:grid; grid-template-rows:75px auto auto; min-height:131px; align-content:center; gap:3px; padding:7px 7px 8px; text-align:center; text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:var(--radius); }
-.tile a:hover { border-color:#73998c; background:#edf5e9; }
+.tile { display:flex; flex-direction:column; background:#fff; border:1px solid var(--line); border-radius:var(--radius); }
+.tile-main { display:grid; grid-template-rows:75px auto; min-height:107px; flex:1; align-content:center; gap:3px; padding:7px 7px 4px; text-align:center; text-decoration:none; border-radius:var(--radius) var(--radius) 0 0; }
+.tile:hover { border-color:#73998c; }
+.tile-main:hover,.tile-model:hover { background:#edf5e9; }
 .tile-photo { display:grid; place-items:center; min-width:0; }
 .tile img { width:100%; height:71px; object-fit:contain; mix-blend-mode:multiply; }
 .tile-title { font-size:13px; line-height:1.25; font-weight:800; }
-.tile-model { font:700 11px/1.4 Arial,sans-serif; color:var(--muted); overflow-wrap:anywhere; }
+.tile-model { display:flex; align-items:center; justify-content:center; min-height:34px; padding:5px 4px 7px; border-radius:0 0 var(--radius) var(--radius); font:700 11px/1.4 Arial,sans-serif; color:#294768; overflow-wrap:anywhere; text-underline-offset:3px; }
+.tile-model::after,.model::after { content:" ↗"; margin-left:3px; font-weight:500; text-decoration:none; }
 .empty { border:1px solid var(--line); border-radius:var(--radius); padding:13px 16px; background:white; display:flex; gap:15px; align-items:center; flex-wrap:wrap; }
 .scenarios,.terms { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
 .scenario,.terms>div { padding:16px; border:1px solid var(--line); border-radius:var(--radius); background:white; }
@@ -84,13 +87,17 @@ h2 { font-size:clamp(25px,3vw,35px); letter-spacing:-.035em; line-height:1.22; }
 .identity { padding:14px 13px; align-self:center; }
 .family { color:var(--green); font-weight:750; font-size:12px; }
 .product h3 { font-size:clamp(18px,2.1vw,26px); margin:2px 0 4px; line-height:1.23; font-weight:850; overflow-wrap:anywhere; }
-.model { display:block; color:#294768; font-weight:800; font-size:15px; overflow-wrap:anywhere; }
+.model { display:inline-flex; align-items:center; min-height:28px; color:#294768; font-weight:800; font-size:15px; overflow-wrap:anywhere; text-underline-offset:3px; }
+.model:hover { color:#1756b8; }
 .key-spec { margin-top:5px; color:var(--muted); font-size:13px; }
 .price { display:grid; width:max-content; max-width:100%; gap:1px; color:#483a13; background:var(--price); padding:5px 8px; margin-top:7px; border-radius:5px; font-size:11px; }
 .price strong { font:800 22px/1.15 Arial,sans-serif; white-space:nowrap; }
 .price strong small { font-size:11px; margin-right:4px; }
 .price a { font-weight:700; text-underline-offset:2px; }
 .price.unavailable { color:var(--muted); background:#edf3e9; font-size:12px; }
+.price strong.price-status { font-family:inherit; font-size:14px; line-height:1.5; white-space:normal; }
+.price-note { max-width:230px; line-height:1.5; }
+.price-reference { max-width:230px; margin-top:4px; padding-top:4px; border-top:1px solid #c9d7c9; font-size:12px; line-height:1.5; }
 .product-body { padding:17px; }
 .suitable { margin-bottom:14px; line-height:1.45; }
 .suitable strong { margin-right:8px; color:var(--green); }
@@ -156,10 +163,10 @@ footer p { color:var(--muted); font-size:13px; margin-top:4px; }
   .section-heading p,.practice-layout>div:first-child p { font-size:14px; margin-top:5px; }
   .filters button { padding:5px 8px; font-size:12px; }
   .tiles { grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px; }
-  .tile a { grid-template-rows:54px minmax(30px,auto) auto; min-height:99px; height:100%; padding:4px 3px 5px; }
+  .tile-main { grid-template-rows:54px minmax(30px,auto); min-height:90px; padding:4px 3px 2px; }
   .tile img { height:53px; }
   .tile-title { font-size:12px; }
-  .tile-model { font-size:10px; }
+  .tile-model { min-height:36px; font-size:10px; padding:4px 2px; }
   .scenarios,.terms { grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; }
   .scenario,.terms>div { padding:10px; }
   .scenario h3,.terms dt { font-size:15px; }

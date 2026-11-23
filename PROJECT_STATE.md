@@ -4,7 +4,7 @@
 
 - 正式入口為 https://www.funfun.idv.tw/demo/202611-SF/ ，依 Sam 本次指定部署至 `/public_html/demo/202611-SF`。版本來源繼續沿用 `HelloPages/sunfar-monitor-guide` 的權威主線 `main:/docs`；既有 GitHub Pages 設定保留。
 - 資料範圍是順發V12墊板14個銷售配置、12個完整螢幕型號。S32FM703UC分為FollowMe、FollowMe Pro及白色M7單機。規格顯示「2K QHD」與「4K UHD」。
-- 機款速查、六組需求、14份門市話術及示範、10題練習及規格小抄。公開價格只用三星上市新聞稿中對應系列及尺寸的建議售價，未列公告價的條目提示洽詢門市。
+- 機款速查、六組需求、14份門市話術及示範、10題練習及規格小抄。公開價格優先採三星新聞公告的建議售價，其餘依官網資料準確標示原價或標準價格，來源及組合範圍見 `PRICE_SOURCES.md`。
 - `specs.json` 為核對後的公開規格，`content.json` 為講義內容，`ASSETS.md` 為圖片來源。編修後執行 `py -3.11 build.py`，正式頁面測試以 `py -3.11 qa_browser.py --url https://www.funfun.idv.tw/demo/202611-SF/` 執行。
 - 11/19前版QA證據留在本機 `qa/local` 和 `qa/live`。390×844、1280×720、1440×900採Chrome驗收，涵蓋切換、搜尋、跳轉、展開規格、複製、作答及14張圖。手機測試是Chrome視窗模擬。
 - 高雄店講義與V12印刷原稿屬各自的專案，本案獨立維護。
@@ -17,3 +17,16 @@
 - 指定 Funfun 新目錄的18個公開檔案已完成上傳及FTP SHA-256讀回核對，素材先傳、首頁最後傳。
 - 正式網站三尺寸互動與HTTPS逐檔核對：全部通過。18個公開檔案與本機SHA-256一致，14張產品圖、分類、搜尋、跳轉、規格展開、複製、10題練習及重作均正常，沒有頁面或資源錯誤。
 - 本輪證據：`qa/20261123/local/`、`qa/20261123/live/`、`qa/20261123/funfun-deploy.json`。瀏覽器測試使用本機既有 `py -3.11` 環境；手機為Chrome視窗模擬，未宣稱實機測試。
+
+## 2026/11/23 價格與官網連結增補
+
+- 速查與詳細卡片共28個型號文字連結指向對應台灣三星官網，另開分頁；圖片及品名的頁內教學跳轉保留。
+- 價格查核包含12個精確型號的官方產品頁、官方產品清單及兩篇上市公告，按14個銷售配置保存。11個配置具對應官方數字；Pro32/43吋套組待確認且僅附不含氣壓架的單機公告參考；S3建議售價待確認。
+- 價格卡依證據區分「三星建議售價」「三星官網原價」「三星官網標準價格」「官網FollowMe立架組價格」，沒有把促銷價改名為建議售價。
+- 本輪來源資料：`PRICE_SOURCES.md`、本機 `qa/20261123-prices/official-price-audit.json`。本機與正式站390×844、1280×720、1440×900的完整互動驗收通過；所有28個型號外連逐一核對，並實際點開代表型號的官方頁。
+
+- 本輪已實際檢視手機價格卡、搜尋、標題與正誤解釋，以及1280／1440的速查及FollowMe價格卡，沒有溢出或價格範圍混淆。手機仍屬Chrome視窗模擬。
+- 本輪只更新公開HTML與CSS，未更動14張產品圖及練習JavaScript；正式站18個公開檔案最終HTTPS SHA-256均與本機一致，FTP上傳前也確認既有檔案版本。
+- 正式主機CSS快取為7天，生成器已將CSS與JS檔案雜湊加入網址v參數。最後對帶參數的資源再次讀回核對，手機瀏覽器確認正確載入且藍紅解釋正常。
+- LINE外開短網址 https://spoo.me/31Hk2Zx 維持可用；本輪以一般GET確認302至 https://www.funfun.idv.tw/demo/202611-SF/?openExternalBrowser=1 。
+- 完整證據：qa/20261123-prices/ 下的 local/、live/、official-price-audit.json、funfun-deploy.json、cache-version-deploy.json、final-check.json、short-url.json。
